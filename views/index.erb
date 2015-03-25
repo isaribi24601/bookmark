@@ -17,9 +17,9 @@
     
     <script>
         $('#url').change(function() {
-     $.get("/api/site", { url: $(this).val() },
-           function(data){
-         $('#title').val(data.title);
+            $.get("/api/site", { url: $(this).val() },
+                function(data){
+                    $('#title').val(data.title);
      });
         })
     </script>

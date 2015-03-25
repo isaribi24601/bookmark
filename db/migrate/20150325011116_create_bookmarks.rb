@@ -5,6 +5,6 @@ class CreateBookmarks < ActiveRecord::Migration
           t.string :url
           t.timestamps
           
-          end
+    end
   end
 end
